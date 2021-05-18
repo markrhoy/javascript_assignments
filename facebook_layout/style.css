@@ -1,0 +1,177 @@
+body{
+    background-color: #2d88ff;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    max-width: auto;
+    border: 1pt solid azure;
+    padding: 5pt;
+}
+
+
+.nav__item_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+
+.sidebar_left_item{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5pt 0 5pt 0;
+}
+
+.sidebar_right_item{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5pt 0 5pt 0;
+    margin-left: 5pt;
+}
+
+.sidebar_item,
+.nav_item{
+    background-color: azure;
+    height: 40px;
+}
+
+#nav_logo{
+    width: 40px;
+
+}
+
+#nav_icon{
+    width: 40px;
+   
+    margin-left: 5pt;
+}
+
+
+#search_bar{
+    min-width: 220px;
+    margin-left: 5pt;
+}
+
+#nav_profile{
+    flex-grow: 1;
+    min-width: auto;
+    margin-left: 5pt;
+}
+
+.nav__middle_item_container{
+    justify-content: center;
+}
+
+#nav_middle_item{
+    width: 90px;
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+#main{
+    margin-bottom: 10pt;
+    margin-top: 10pt;
+}
+
+.sidebar_item_icon{
+    width: 35px;
+}
+
+.sidebar_item_text{
+    min-width: 300px;
+    margin-left: 5pt;
+}
+
+.sidebar_ad{
+    background-color: azure;
+    flex-grow: 1;
+    min-height: 280px;
+    margin-left: 5pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+}
+
+#main_content{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+
+
+.post_container{
+    margin: 5pt;
+    flex-grow: 1;
+    height: fit-content;
+    border: 1pt solid azure;
+    padding: 5pt;
+}
+
+.post_header{
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile_image{
+    width: 60px;
+    height: 60px;
+    background-color: azure;
+}
+
+.post_author{
+    width: 300px;
+    height: 30px;
+    background-color: azure;
+    margin-left: 5pt;
+}
+
+.post_content_text{
+    margin-bottom: 5pt;
+    margin-top: 10pt;
+    size: 20em;
+    color: azure;
+}
+
+.post_content_img{
+    margin: 0;
+    background-color: azure;
+    flex-grow: 1;
+    height: 300px;
+}
+
+.post_actions{
+    display: flex;
+    align-items: center;
+    margin-top: 5pt;
+}
+
+.post_actions > div{
+    background-color: azure;
+    width: 30px;
+    height: 30px;
+    margin-right: 5pt;
+}
+
+.post_actions_lcs{
+    border-top: 1pt solid azure;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5pt;
+}
+
+.post_actions_lcs > div{
+    margin-top: 5pt;
+    color: azure;
+    padding: 3pt;
+    font-weight: bold;
+    flex-basis: 33.3%;
+    text-align: center;
+}
